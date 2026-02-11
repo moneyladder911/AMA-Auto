@@ -1,0 +1,109 @@
+.services-section {
+    padding: 80px 0;
+    background: var(--bg-primary);
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: var(--accent);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.service-card {
+    background: var(--bg-secondary);
+    padding: 2.5rem;
+    border-radius: 12px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-color: var(--accent);
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(255, 81, 0, 0.05), transparent);
+    z-index: 0;
+}
+
+.service-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 81, 0, 0.1);
+    color: var(--accent);
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s;
+}
+
+.service-card:hover .service-icon {
+    background: var(--accent);
+    color: white;
+    transform: scale(1.1) rotate(10deg);
+}
+
+.service-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.service-desc {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.service-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--accent);
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.service-link:hover {
+    gap: 0.8rem;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .section-heading {
+        font-size: 2rem;
+    }
+}

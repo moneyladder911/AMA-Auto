@@ -1,0 +1,106 @@
+.footer {
+    background: var(--bg-primary);
+    border-top: 1px solid var(--border);
+    padding-top: 4rem;
+    position: relative;
+    color: var(--text-secondary);
+}
+
+.footer-top {
+    padding-bottom: 3rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+    display: block;
+}
+
+.footer-desc {
+    margin-bottom: 2rem;
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+.contact-item .icon {
+    color: var(--accent);
+}
+
+.footer-map iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 12px;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+    /* Dark mode map style */
+    border: 1px solid var(--border);
+}
+
+.footer-bottom {
+    background: black;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border);
+}
+
+.floating-whatsapp {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: #000000;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    z-index: 1000;
+    transition: transform 0.3s, border-color 0.3s;
+    text-decoration: none;
+}
+
+.floating-whatsapp:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
+}
+
+.floating-whatsapp img {
+    filter: brightness(0) invert(1);
+    /* Make icon white */
+}
+
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .floating-whatsapp {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}

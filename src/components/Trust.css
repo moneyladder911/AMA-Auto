@@ -1,0 +1,82 @@
+.trust-section {
+    padding: 80px 0;
+    background: var(--bg-secondary);
+    text-align: center;
+}
+
+.trust-heading {
+    margin-bottom: 3rem;
+    font-size: 2.2rem;
+    color: var(--text-primary);
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.review-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+}
+
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 1rem;
+}
+
+.review-text {
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+.review-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author-avatar {
+    width: 40px;
+    height: 40px;
+    background: var(--accent);
+    color: white;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.author-name {
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin-bottom: 0.2rem;
+}
+
+.author-car {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .trust-heading {
+        font-size: 1.8rem;
+    }
+}
