@@ -32,7 +32,7 @@ const Header = () => {
                     </nav>
 
                     <div className="header-actions">
-                         <a href="tel:+971547242806" className="phone-btn"><Phone size={18} /> Call Us</a>
+                         <a href="tel:+971547242806" className="phone-btn"><Phone size={18} /> Call Us +971 54 724 2806</a>
                          <a href="#booking" className="cta-btn glowing">Book Inspection</a>
                          <button className="menu-toggle" onClick={toggleMenu}>
                               {menuOpen ? <X size={24} /> : <Menu size={24} />}
