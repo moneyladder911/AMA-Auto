@@ -62,23 +62,21 @@
 
 .trust-indicator {
     margin-top: 15px;
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: #ffffff;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 10px;
     opacity: 0.9;
-    vertical-align: middle;
 }
 
 .stars {
     color: #ffcc00;
     /* Gold stars for that premium Dubai feel */
-    display: inline-flex;
+    line-height: 1;
+    display: flex;
     align-items: center;
-    position: relative;
-    top: -1px;
 }
 
 .hero-cta {
