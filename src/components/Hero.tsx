@@ -12,7 +12,7 @@ const Hero = () => {
                     transition={{ duration: 0.8 }}
                     className="hero-title"
                 >
-                    The Best <span className="text-accent">Auto Repair Shop</span> in Dubai Investment Park (DIP).
+                    Top-Rated <span className="text-accent">Car Service & Auto Repair Shop</span> in Dubai Investment Park (DIP) – All Makes & Models
                 </motion.h1>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}

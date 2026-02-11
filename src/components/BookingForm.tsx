@@ -29,10 +29,9 @@ const BookingForm = () => {
         <section id="booking" className="booking-section">
             <div className="container">
                 <div className="booking-content">
-                    <h2 className="booking-title">Book Your Free Inspection</h2>
+                    <h2 className="booking-title">Appointments</h2>
                     <p className="booking-subtitle">
-                        Schedule a visit for your Audi, BMW, Porsche, or Mercedes-Benz today.
-                        Our certified technicians in Dubai Investment Park are ready to assist.
+                        Book your appointment quickly and easily online.
                     </p>
 
                     <form className="booking-form" onSubmit={handleSubmit}>

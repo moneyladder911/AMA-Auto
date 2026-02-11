@@ -6,6 +6,7 @@ import Services from './components/Services';
 import BookingForm from './components/BookingForm';
 import Trust from './components/Trust';
 import Footer from './components/Footer';
+import FAQ from './components/FAQ';
 import './index.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Hero />
           <Services />
           <Trust />
+          <FAQ />
           <BookingForm />
         </main>
 
