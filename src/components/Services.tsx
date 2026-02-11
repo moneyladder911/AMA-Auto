@@ -1,28 +1,38 @@
-import { Wrench, Monitor, ShieldCheck, ThermometerSnowflake, ArrowRight } from 'lucide-react';
+import { Wrench, Monitor, ShieldCheck, ThermometerSnowflake, ArrowRight, Truck, Battery, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
 import './Services.css';
 
 const Services = () => {
     const services = [
         {
-            title: "Major & Minor Service",
+            title: "Oil Change & Service",
             desc: "Premium synthetic oil and filter change, comprehensive checks, and fluid top-ups for peak performance.",
             icon: <Wrench size={32} />
         },
         {
-            title: "Diagnostic Scan",
-            desc: "Dealer-level computer diagnostics for ECU/Software to identify and fix complex issues accurately.",
-            icon: <Monitor size={32} />
+            title: "Electrical Diagnostics",
+            desc: "Expert car electrical diagnostics and repair. wiring, ECU, and software fixes for all complex issues.",
+            icon: <Zap size={32} />
         },
         {
-            title: "Brakes & Suspension",
-            desc: "Precision maintenance for high-performance safety, including pad replacement, rotor resurfacing, and shock absorbers.",
+            title: "Steering & Suspension",
+            desc: "Complete steering service and suspension maintenance for a smooth, stable, and safe drive.",
             icon: <ShieldCheck size={32} />
         },
         {
-            title: "A/C Repair",
-            desc: "Specialized cooling solutions for the Dubai heat. Compressor repair, gas refill, and leak detection.",
+            title: "Cooling System & A/C",
+            desc: "Specialized cooling system service and A/C repair. Radiatiors, compressors, gas refill, and leak detection.",
             icon: <ThermometerSnowflake size={32} />
+        },
+        {
+            title: "Car Battery Service",
+            desc: "Professional battery testing, replacement, and system checks to ensure reliable performance.",
+            icon: <Battery size={32} />
+        },
+        {
+            title: "Car Pickup & Towing",
+            desc: "Convenient car pickup and towing service for your repairs. We take care of getting your car to us.",
+            icon: <Truck size={32} />
         }
     ];
 
