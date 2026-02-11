@@ -6,13 +6,13 @@ const Trust = () => {
         {
             name: "Mohammad Altaf",
             car: "Audi Owner",
-            text: "If you own an Audi and need repairs, Amaauto is the place to go. Their professionalism and attention to detail are unmatched. Sanjay Wattal is excellent with communication, and Anil Fernandes leads an engineering team that knows Audi inside out.",
+            text: "If you own an Audi and need repairs, RPM Auto Garage is the place to go. Their professionalism and attention to detail are unmatched. Sanjay Wattal is excellent with communication, and Anil Fernandes leads an engineering team that knows Audi inside out.",
             stars: 5
         },
         {
             name: "Stelvin Rodrigues",
             car: "BMW Owner",
-            text: "I had a great experience at Amaauto! They quickly diagnosed and fixed the issue with my BMW, and the team was very professional. A big thank you to Anil Fernandes in Operations & Engineering for ensuring everything was seamless.",
+            text: "I had a great experience at RPM Auto Garage! They quickly diagnosed and fixed the issue with my BMW, and the team was very professional. A big thank you to Anil Fernandes in Operations & Engineering for ensuring everything was seamless.",
             stars: 5
         },
         {

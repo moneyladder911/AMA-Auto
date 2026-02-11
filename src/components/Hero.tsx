@@ -12,7 +12,7 @@ const Hero = () => {
                     transition={{ duration: 0.8 }}
                     className="hero-title"
                 >
-                    The Ultimate <span className="text-accent">German Car</span> Specialist in Dubai Investment Park (DIP).
+                    The Best <span className="text-accent">Auto Repair Shop</span> in Dubai Investment Park (DIP).
                 </motion.h1>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -20,7 +20,7 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="hero-subtitle"
                 >
-                    Expert Care for Audi, Porsche, BMW & Mercedes. Precision repairs, genuine parts, and 100+ five-star reviews.
+                    Expert Care for All Makes & Models. Precision repairs, genuine parts, and 100+ five-star reviews.
                 </motion.p>
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

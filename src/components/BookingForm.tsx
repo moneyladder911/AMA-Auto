@@ -21,7 +21,7 @@ const BookingForm = () => {
         e.preventDefault();
         // Here you would typically send data to a backend or WhatsApp
         const message = `Hello, I'd like to book a free inspection. Name: ${formData.name}, Phone: ${formData.phone}, Car: ${formData.carModel}, Service: ${formData.serviceType}`;
-        const whatsappUrl = `https://wa.me/971555555555?text=${encodeURIComponent(message)}`;
+        const whatsappUrl = `https://wa.me/971547242806?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
     };
 

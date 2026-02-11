@@ -22,18 +22,17 @@ const Header = () => {
           <header className={`header ${scrolled ? 'scrolled' : ''}`}>
                <div className="container header-content">
                     <a href="/" className="logo">
-                         <span className="logo-accent">AMA</span> AUTO
+                         <span className="logo-accent">RPM</span> AUTO GARAGE
                     </a>
 
                     <nav className={`nav ${menuOpen ? 'open' : ''}`}>
                          <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
-                         <a href="#brands" onClick={() => setMenuOpen(false)}>Brands</a>
                          <a href="#reviews" onClick={() => setMenuOpen(false)}>Reviews</a>
                          <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
                     </nav>
 
                     <div className="header-actions">
-                         <a href="tel:+971555555555" className="phone-btn"><Phone size={18} /> Call Us</a>
+                         <a href="tel:+971547242806" className="phone-btn"><Phone size={18} /> Call Us</a>
                          <a href="#booking" className="cta-btn glowing">Book Inspection</a>
                          <button className="menu-toggle" onClick={toggleMenu}>
                               {menuOpen ? <X size={24} /> : <Menu size={24} />}

@@ -2,7 +2,6 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import BrandSlider from './components/BrandSlider';
 import Services from './components/Services';
 import BookingForm from './components/BookingForm';
 import Trust from './components/Trust';
@@ -14,10 +13,10 @@ function App() {
     <HelmetProvider>
       <div className="app">
         <Helmet>
-          <title>AMA Auto Garage - Expert German Car Service in DIP</title>
-          <meta name="description" content="Premier German car specialist in Dubai Investment Park. Expert repair for Audi, Porsche, BMW & Mercedes. Book your free inspection today." />
-          <meta name="keywords" content="German car repair, car service DIP, Audi repair Dubai, Porsche service, BMW mechanic, Mercedes garage Dubai" />
-          <link rel="canonical" href="https://amaautogarage.ae" />
+          <title>RPM Auto Garage LLC - The Best Auto Repair Shop in DIP</title>
+          <meta name="description" content="The Best Auto Repair Shop in Dubai Investment Park (DIP). Expert repair for all makes and models. Book your free inspection today." />
+          <meta name="keywords" content="Best Auto Repair Shop DIP, Car repair Dubai, Auto garage DIP, Car service Dubai Investment Park, Mechanic Dubai" />
+          <link rel="canonical" href="https://rpmautogarage.net" />
           {/* Add preconnect for fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -27,10 +26,9 @@ function App() {
 
         <main>
           <Hero />
-          <BrandSlider />
           <Services />
-          <BookingForm />
           <Trust />
+          <BookingForm />
         </main>
 
         <Footer />

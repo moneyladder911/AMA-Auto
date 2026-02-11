@@ -6,7 +6,7 @@ const Services = () => {
     const services = [
         {
             title: "Major & Minor Service",
-            desc: "Specialized European oil and filter change, comprehensive checks, and fluid top-ups for peak performance.",
+            desc: "Premium synthetic oil and filter change, comprehensive checks, and fluid top-ups for peak performance.",
             icon: <Wrench size={32} />
         },
         {
@@ -29,7 +29,7 @@ const Services = () => {
     return (
         <section id="services" className="services-section">
             <div className="container">
-                <h2 className="section-heading">Specialized German Car Services</h2>
+                <h2 className="section-heading">Specialized Car Services</h2>
                 <div className="services-grid">
                     {services.map((service, index) => (
                         <motion.div

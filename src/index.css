@@ -5,9 +5,13 @@
   --bg-secondary: #111111;
   --text-primary: #ffffff;
   --text-secondary: #a1a1aa;
-  --accent: #ff5100;
-  --accent-glow: rgba(255, 81, 0, 0.4);
+  --accent: #ff0000;
+  --accent-glow: rgba(255, 0, 0, 0.4);
   --border: #333333;
+}
+
+.text-accent {
+  color: var(--accent);
 }
 
 html {
