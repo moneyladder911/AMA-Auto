@@ -44,6 +44,16 @@
     color: var(--text-primary);
 }
 
+.mobile-break {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobile-break {
+        display: block;
+    }
+}
+
 .text-accent {
     color: #E31E24;
     /* Your RPM Red */
@@ -120,11 +130,12 @@
 
 @media (max-width: 768px) {
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
+        /* Significantly reduced from 2.5rem */
     }
 
     .hero-subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
         padding: 0 1rem;
     }
 }

@@ -12,7 +12,7 @@ const Hero = () => {
                     transition={{ duration: 0.8 }}
                     className="hero-title"
                 >
-                    Top-Rated <span className="text-accent">Car Service & Auto Repair Shop</span> in Dubai Investment Park (DIP)
+                    Top-Rated <span className="text-accent">Car Service & Auto Repair Shop</span> <br className="mobile-break" /> in Dubai Investment Park (DIP)
                 </motion.h1>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
